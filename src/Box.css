@@ -1,0 +1,14 @@
+.Box1 {
+  background-color: #efffd4;
+}
+
+.Box {
+  box-shadow: 3px 8px 6px 3px #84c318;
+  font-size: 40px;
+
+  background-color: #ffffff;
+}
+
+.Home {
+  margin-top: 400px;
+}

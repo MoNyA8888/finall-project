@@ -1,0 +1,61 @@
+.h1 {
+  height: 10vmin;
+  pointer-events: none;
+  color: #84c318;
+  text-align: center;
+}
+.p {
+  font-size: calc(7px + 1.5vmin);
+  pointer-events: none;
+  text-align: left;
+  background-color: rgb(241, 255, 217);
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.About {
+  background-color: rgb(241, 255, 217);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+.Button {
+  background-color: #84c318; /* Green */
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
